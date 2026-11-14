@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "door.o" "door_cgram.o" "eint.o" "gsm.o" "keypad.o" "lcd.o" "main.o" "main_dly.o" "majorproject.o" "otp.o" "rtc.o" "spi.o" "spi_eeprom.o" "switch.o" "uart.o" "user.o" --strict --scatter "majorproject.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\majorproject.map" -o "majorproject.axf"

@@ -1,0 +1,35 @@
+*** Creating Trace Output File 'majorproject.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"door.o"'
+### List of Objects: adding '"door_cgram.o"'
+### List of Objects: adding '"eint.o"'
+### List of Objects: adding '"gsm.o"'
+### List of Objects: adding '"keypad.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"main_dly.o"'
+### List of Objects: adding '"majorproject.o"'
+### List of Objects: adding '"otp.o"'
+### List of Objects: adding '"rtc.o"'
+### List of Objects: adding '"spi.o"'
+### List of Objects: adding '"spi_eeprom.o"'
+### List of Objects: adding '"switch.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"user.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "door.o" "door_cgram.o" "eint.o" "gsm.o" "keypad.o" "lcd.o" "main.o" "main_dly.o" "majorproject.o" "otp.o" "rtc.o" "spi.o" "spi_eeprom.o" "switch.o" "uart.o" "user.o" --strict --scatter "majorproject.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\majorproject.map" -o "majorproject.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'majorproject.axf'
+### ADS-LD Command File: 'majorproject.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'majorproject.lnp', Handle=0x000003B8
+### Writing '.lnp' file
+### ADS-LD Command file 'majorproject.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

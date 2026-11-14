@@ -1,0 +1,1 @@
+majorproject.o: majorproject.c
